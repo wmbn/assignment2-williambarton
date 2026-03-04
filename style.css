@@ -1,10 +1,12 @@
+/*I am hoping a gallery-style look that is ancillary to the flowers*/
 body {
-    font-family: Arial, sans-serif;
+    font-family: Arial, sans-serif; 
     line-height: 1.5;
-    background-color: #f0f0f0;
+    background-color: #f0f0f0; /* I am using light gray here in an attempt to advance the chroma of the flowers*/
     margin: 0;
 }
 
+/*header and footer have same background color. I added the box shadow to make the viewer's eye "approach" the subject in a sense*/
 header {
     background-color: #333;
     color: white;
@@ -14,7 +16,7 @@ header {
     box-shadow: 0 2px 5px rgba(0,0,0,0.2);
     text-align: center;
 }
-
+/*these styles are for facilitate navigation while not introducing polluting colors or an inflexible feel*/
 nav ul {
     list-style: none;
     padding: 0;
@@ -33,6 +35,7 @@ nav ul li a:hover {
     background-color: #555;
 }
 
+/*used for clean centering to assist viewer in focusing on flower*/
 main {
     max-width: 800px;
     margin: 2rem auto;
@@ -42,6 +45,7 @@ main {
     align-items: center;
 }
 
+/*not only matches header, but also unifies and balances contrast and navigation*/
 footer {
     background-color: #333;
     color: white;
