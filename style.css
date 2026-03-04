@@ -2,7 +2,7 @@
 body {
     font-family: Arial, sans-serif; 
     line-height: 1.5;
-    background-color: #f0f0f0; /* I am using light gray here in an attempt to advance the chroma of the flowers*/
+    background-color: #f0f0f0; /* I am using light gray here in an attempt to advance the chroma of the flowers (as defined by https://munsell.com/color-blog/difference-chroma-saturation/)*/
     margin: 0;
 }
 
